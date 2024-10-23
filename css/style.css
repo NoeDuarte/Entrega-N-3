@@ -1,0 +1,54 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  border-bottom: 1px solid gray;
+}
+header img {
+  width: 15rem;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li {
+  margin: 5px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 1s;
+}
+header nav ul li a:hover {
+  margin: 5px;
+  color: blue;
+}
+header .plataforma {
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+header .plataforma img {
+  width: 25px;
+}
+header .plataforma a {
+  margin: 15px;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+main .section-inicio {
+  margin-top: 35px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */

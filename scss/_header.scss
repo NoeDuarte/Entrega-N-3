@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    border-bottom: 1px solid gray;
+    img{
+        width: 15rem;
+    }
+
+    nav{
+        ul{
+            list-style: none;
+            display: flex;
+            li{
+                margin: 5px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-family: Arial, Helvetica, sans-serif;
+                    transition: 1s;
+                    &:hover{
+                        margin: 5px;
+                        color: blue;
+                    }
+                }
+            }
+        }
+    }
+    .plataforma{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        img{
+            width: 25px;
+
+        }
+        a{
+            margin: 15px;
+            text-decoration: none;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
