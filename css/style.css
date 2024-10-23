@@ -1,3 +1,15 @@
+body {
+  background-color: white;
+}
+body .anuncio {
+  background-color: rgb(44, 152, 160);
+}
+body .anuncio p {
+  color: black;
+  text-align: center;
+  padding: 5px;
+}
+
 header {
   display: flex;
   justify-content: space-around;
@@ -5,7 +17,7 @@ header {
   border-bottom: 1px solid gray;
 }
 header img {
-  width: 15rem;
+  width: 10rem;
 }
 header nav ul {
   list-style: none;
@@ -17,7 +29,7 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
   transition: 1s;
 }
 header nav ul li a:hover {
@@ -25,7 +37,6 @@ header nav ul li a:hover {
   color: blue;
 }
 header .plataforma {
-  background-color: white;
   display: flex;
   align-items: center;
 }
@@ -35,18 +46,14 @@ header .plataforma img {
 header .plataforma a {
   margin: 15px;
   text-decoration: none;
-  color: black;
+  color: blue;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  background-color: white;
 }
 
 main .section-inicio {
   margin-top: 35px;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial;
   text-align: center;
   font-size: 2rem;
 }

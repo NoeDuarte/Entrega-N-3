@@ -1,10 +1,11 @@
+@import "../utilities/variables";
 header{
     display: flex;
     justify-content: space-around;
     padding: 15px;
     border-bottom: 1px solid gray;
     img{
-        width: 15rem;
+        width: 10rem;
     }
 
     nav{
@@ -15,19 +16,19 @@ header{
                 margin: 5px;
                 a{
                     text-decoration: none;
-                    color: black;
-                    font-family: Arial, Helvetica, sans-serif;
+                    color: $color-negro;
+                    font-family: $fuente-pricipal;
                     transition: 1s;
                     &:hover{
                         margin: 5px;
-                        color: blue;
+                        color: $color-azul;
                     }
                 }
             }
         }
     }
     .plataforma{
-        background-color: white;
+        //background-color: white;
         display: flex;
         align-items: center;
         img{
@@ -37,7 +38,7 @@ header{
         a{
             margin: 15px;
             text-decoration: none;
-            color: black;
+            color: $color-azul;
             font-family: Arial, Helvetica, sans-serif;
         }
     }

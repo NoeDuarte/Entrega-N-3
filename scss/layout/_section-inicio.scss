@@ -1,8 +1,9 @@
+@import "../utilities/variables";
 main{
     .section-inicio{
         margin-top: 35px;
-            color: black;
-            font-family: Arial, Helvetica, sans-serif;
+            color: $color-negro;
+            font-family:$fuente-pricipal;
             text-align: center;
             font-size: 2rem;
         }

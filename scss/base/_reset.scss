@@ -1,0 +1,12 @@
+@import "../utilities/variables";
+body{
+    background-color: $color-blanco;
+    .anuncio{
+        background-color: rgb(44, 152, 160);
+        p{
+            color: black;
+            text-align: center;
+            padding: 5px;
+        }
+    }
+}

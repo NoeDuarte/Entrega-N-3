@@ -1,8 +1,12 @@
-@import "header.scss";
-@import "reset.scss";
-@import "section-inicio.scss";
-
-
+@import "base/reset";
+@import "components/botones";
+@import "components/cards";
+@import "layout/header";
+@import "layout/section-inicio";
+@import "media-queries/media-tablet.scss";
+@import "utilities/extend";
+@import "utilities/mixins";
+@import "utilities/variables"
 
 
 
