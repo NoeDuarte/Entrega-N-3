@@ -1,53 +1,73 @@
 body {
   background-color: white;
+  padding-top: 50px;
 }
 body .anuncio {
-  background-color: rgb(44, 152, 160);
-}
-body .anuncio p {
-  color: black;
+  background-color: #f700f7;
+  font-weight: bold;
+  font-size: 0.7rem;
+  color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1020;
+  padding: 0.5rem;
+  font-weight: bold;
   text-align: center;
-  padding: 5px;
 }
 
 header {
   display: flex;
   justify-content: space-around;
-  padding: 15px;
   border-bottom: 1px solid gray;
+  padding: 1rem 0;
+  background-color: #f8f9fa;
+  position: fixed;
+  top: 40px;
+  width: 100%;
+  z-index: 50;
+  padding: 1rem 0;
 }
 header img {
   width: 10rem;
 }
-header nav ul {
-  list-style: none;
-  display: flex;
-}
-header nav ul li {
-  margin: 5px;
-}
-header nav ul li a {
-  text-decoration: none;
-  color: black;
-  font-family: Arial;
-  transition: 1s;
-}
-header nav ul li a:hover {
-  margin: 5px;
-  color: blue;
-}
-header .plataforma {
+header .header-content {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-header .plataforma img {
-  width: 25px;
+header .header-content .logo {
+  max-width: 150px;
+}
+header .navbar .nav-link {
+  color: #333;
+}
+header .navbar .nav-link:hover {
+  color: #c400c4;
 }
 header .plataforma a {
-  margin: 15px;
-  text-decoration: none;
-  color: blue;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+header .plataforma a:hover {
+  color: #c400c4;
+}
+header .plataforma .menu-icon {
+  max-width: 30px;
+}
+
+.container_contacto .row {
+  align-items: center;
+}
+.container_contacto .row .col-md-6:first-child img {
+  width: 110%;
+  max-width: 70%;
+  margin-right: -10px;
+}
+.container_contacto .row .col-md-6:last-child {
+  padding-left: 15px;
 }
 
 main .section-inicio {
